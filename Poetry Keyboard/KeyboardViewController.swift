@@ -79,6 +79,8 @@ class KeyboardViewController: UIInputViewController, UITableViewDataSource, UITa
         var proxy = textDocumentProxy as UITextDocumentProxy
         
         proxy.insertText(title)
+    
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
     
     

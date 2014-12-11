@@ -428,6 +428,7 @@
 				EACC1D241A378BB600D43277 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EACC1D391A38D64E00D43277 /* Build configuration list for PBXNativeTarget "Poetry Keyboard" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +437,7 @@
 				EACC1D3B1A38D64E00D43277 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
