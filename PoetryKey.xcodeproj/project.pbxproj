@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EACC1D091A378BB600D43277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACC1D081A378BB600D43277 /* AppDelegate.swift */; };
+		EACC1D0B1A378BB600D43277 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACC1D0A1A378BB600D43277 /* ViewController.swift */; };
+		EACC1D0E1A378BB600D43277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACC1D0C1A378BB600D43277 /* Main.storyboard */; };
+		EACC1D101A378BB600D43277 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACC1D0F1A378BB600D43277 /* Images.xcassets */; };
+		EACC1D131A378BB600D43277 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EACC1D111A378BB600D43277 /* LaunchScreen.xib */; };
+		EACC1D2B1A38D1DC00D43277 /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACC1D2A1A38D1DC00D43277 /* InfoCell.swift */; };
+		EACC1D351A38D64E00D43277 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACC1D341A38D64E00D43277 /* KeyboardViewController.swift */; };
+		EACC1D381A38D64E00D43277 /* Poetry Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EACC1D301A38D64E00D43277 /* Poetry Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EACC1D3E1A38DCD700D43277 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACC1D3D1A38DCD700D43277 /* TextCell.swift */; };
+		EACC1D411A38E89000D43277 /* changeKeyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = EACC1D3F1A38E89000D43277 /* changeKeyboard.png */; };
+		EACC1D421A38E89000D43277 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = EACC1D401A38E89000D43277 /* delete.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EACC1D361A38D64E00D43277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EACC1CFB1A378BB600D43277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EACC1D2F1A38D64E00D43277;
+			remoteInfo = "Poetry Keyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EACC1D3C1A38D64E00D43277 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EACC1D381A38D64E00D43277 /* Poetry Keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EACC1D031A378BB600D43277 /* PoetryKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoetryKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACC1D071A378BB600D43277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACC1D081A378BB600D43277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EACC1D0A1A378BB600D43277 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EACC1D0D1A378BB600D43277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EACC1D0F1A378BB600D43277 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EACC1D121A378BB600D43277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EACC1D2A1A38D1DC00D43277 /* InfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
+		EACC1D301A38D64E00D43277 /* Poetry Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Poetry Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACC1D331A38D64E00D43277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACC1D341A38D64E00D43277 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		EACC1D3D1A38DCD700D43277 /* TextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		EACC1D3F1A38E89000D43277 /* changeKeyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = changeKeyboard.png; sourceTree = "<group>"; };
+		EACC1D401A38E89000D43277 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EACC1D001A378BB600D43277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACC1D2D1A38D64E00D43277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EACC1CFA1A378BB600D43277 = {
+			isa = PBXGroup;
+			children = (
+				EACC1D051A378BB600D43277 /* PoetryKey */,
+				EACC1D311A38D64E00D43277 /* Poetry Keyboard */,
+				EACC1D041A378BB600D43277 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EACC1D041A378BB600D43277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EACC1D031A378BB600D43277 /* PoetryKey.app */,
+				EACC1D301A38D64E00D43277 /* Poetry Keyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EACC1D051A378BB600D43277 /* PoetryKey */ = {
+			isa = PBXGroup;
+			children = (
+				EACC1D081A378BB600D43277 /* AppDelegate.swift */,
+				EACC1D0A1A378BB600D43277 /* ViewController.swift */,
+				EACC1D2A1A38D1DC00D43277 /* InfoCell.swift */,
+				EACC1D0C1A378BB600D43277 /* Main.storyboard */,
+				EACC1D0F1A378BB600D43277 /* Images.xcassets */,
+				EACC1D111A378BB600D43277 /* LaunchScreen.xib */,
+				EACC1D061A378BB600D43277 /* Supporting Files */,
+			);
+			path = PoetryKey;
+			sourceTree = "<group>";
+		};
+		EACC1D061A378BB600D43277 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EACC1D071A378BB600D43277 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EACC1D311A38D64E00D43277 /* Poetry Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EACC1D3F1A38E89000D43277 /* changeKeyboard.png */,
+				EACC1D401A38E89000D43277 /* delete.png */,
+				EACC1D341A38D64E00D43277 /* KeyboardViewController.swift */,
+				EACC1D3D1A38DCD700D43277 /* TextCell.swift */,
+				EACC1D321A38D64E00D43277 /* Supporting Files */,
+			);
+			path = "Poetry Keyboard";
+			sourceTree = "<group>";
+		};
+		EACC1D321A38D64E00D43277 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EACC1D331A38D64E00D43277 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EACC1D021A378BB600D43277 /* PoetryKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACC1D221A378BB600D43277 /* Build configuration list for PBXNativeTarget "PoetryKey" */;
+			buildPhases = (
+				EACC1CFF1A378BB600D43277 /* Sources */,
+				EACC1D001A378BB600D43277 /* Frameworks */,
+				EACC1D011A378BB600D43277 /* Resources */,
+				EACC1D3C1A38D64E00D43277 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EACC1D371A38D64E00D43277 /* PBXTargetDependency */,
+			);
+			name = PoetryKey;
+			productName = PoetryKey;
+			productReference = EACC1D031A378BB600D43277 /* PoetryKey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EACC1D2F1A38D64E00D43277 /* Poetry Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACC1D391A38D64E00D43277 /* Build configuration list for PBXNativeTarget "Poetry Keyboard" */;
+			buildPhases = (
+				EACC1D2C1A38D64E00D43277 /* Sources */,
+				EACC1D2D1A38D64E00D43277 /* Frameworks */,
+				EACC1D2E1A38D64E00D43277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Poetry Keyboard";
+			productName = "Poetry Keyboard";
+			productReference = EACC1D301A38D64E00D43277 /* Poetry Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EACC1CFB1A378BB600D43277 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Paolo Furlan";
+				TargetAttributes = {
+					EACC1D021A378BB600D43277 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EACC1D2F1A38D64E00D43277 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = EACC1CFE1A378BB600D43277 /* Build configuration list for PBXProject "PoetryKey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EACC1CFA1A378BB600D43277;
+			productRefGroup = EACC1D041A378BB600D43277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EACC1D021A378BB600D43277 /* PoetryKey */,
+				EACC1D2F1A38D64E00D43277 /* Poetry Keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EACC1D011A378BB600D43277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACC1D0E1A378BB600D43277 /* Main.storyboard in Resources */,
+				EACC1D131A378BB600D43277 /* LaunchScreen.xib in Resources */,
+				EACC1D101A378BB600D43277 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACC1D2E1A38D64E00D43277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACC1D421A38E89000D43277 /* delete.png in Resources */,
+				EACC1D411A38E89000D43277 /* changeKeyboard.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EACC1CFF1A378BB600D43277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACC1D0B1A378BB600D43277 /* ViewController.swift in Sources */,
+				EACC1D091A378BB600D43277 /* AppDelegate.swift in Sources */,
+				EACC1D2B1A38D1DC00D43277 /* InfoCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACC1D2C1A38D64E00D43277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACC1D3E1A38DCD700D43277 /* TextCell.swift in Sources */,
+				EACC1D351A38D64E00D43277 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EACC1D371A38D64E00D43277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EACC1D2F1A38D64E00D43277 /* Poetry Keyboard */;
+			targetProxy = EACC1D361A38D64E00D43277 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EACC1D0C1A378BB600D43277 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACC1D0D1A378BB600D43277 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EACC1D111A378BB600D43277 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACC1D121A378BB600D43277 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EACC1D201A378BB600D43277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EACC1D211A378BB600D43277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EACC1D231A378BB600D43277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = PoetryKey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EACC1D241A378BB600D43277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = PoetryKey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EACC1D3A1A38D64E00D43277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Poetry Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EACC1D3B1A38D64E00D43277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Poetry Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EACC1CFE1A378BB600D43277 /* Build configuration list for PBXProject "PoetryKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACC1D201A378BB600D43277 /* Debug */,
+				EACC1D211A378BB600D43277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACC1D221A378BB600D43277 /* Build configuration list for PBXNativeTarget "PoetryKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACC1D231A378BB600D43277 /* Debug */,
+				EACC1D241A378BB600D43277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EACC1D391A38D64E00D43277 /* Build configuration list for PBXNativeTarget "Poetry Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACC1D3A1A38D64E00D43277 /* Debug */,
+				EACC1D3B1A38D64E00D43277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EACC1CFB1A378BB600D43277 /* Project object */;
+}
